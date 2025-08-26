@@ -1,20 +1,19 @@
 # 🎭 Sentiment Analysis Dashboard
-
 A modern, AI-powered web application for analyzing text sentiment using state-of-the-art deep learning models from Hugging Face Transformers. Built with Streamlit for an intuitive user experience.
 
 ## ✨ Features
 
-- **🤖 AI-Powered Analysis**: Uses pre-trained transformer models from Hugging Face
-- **📊 Interactive Visualizations**: Real-time charts showing confidence scores
-- **🔄 Multiple Model Support**: Easy switching between different sentiment models
-- **📁 File Upload Support**: Analyze text from uploaded files
-- **💾 Export Results**: Download analysis results as CSV
-- **🎨 Modern UI**: Clean, responsive interface with custom styling
-- **⚡ Real-time Processing**: Instant sentiment analysis with confidence scores
+- 🤖 **AI-Powered Analysis**: Uses pre-trained transformer models from Hugging Face
+- 📊 **Interactive Visualizations**: Real-time charts showing confidence scores
+- 🔄 **Multiple Model Support**: Easy switching between different sentiment models
+- 📁 **File Upload Support**: Analyze text from uploaded files
+- 💾 **Export Results**: Download analysis results as CSV
+- 🎨 **Modern UI**: Clean, responsive interface with custom styling
+- ⚡ **Real-time Processing**: Instant sentiment analysis with confidence scores
 
 ## 🚀 Live Demo
 
-[View Live Dashboard](your-streamlit-app-url-here) *(Update this after deployment)*
+[View Live Dashboard](https://sentiment-analysis-dashboard-ju7nimeokifdsmf4m7maxf.streamlit.app)
 
 ## 🛠️ Technology Stack
 
@@ -35,7 +34,7 @@ A modern, AI-powered web application for analyzing text sentiment using state-of
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/sentiment-analysis-dashboard.git
+git clone https://github.com/Jeevanm2004/sentiment-analysis-dashboard.git
 cd sentiment-analysis-dashboard
 ```
 
@@ -74,6 +73,7 @@ http://localhost:8501
 ## 🌐 Online Deployment on Streamlit Community Cloud
 
 ### Prerequisites
+
 - GitHub account
 - Streamlit Community Cloud account (free at [share.streamlit.io](https://share.streamlit.io))
 
@@ -81,49 +81,55 @@ http://localhost:8501
 
 #### Step 1: Prepare Your Repository
 
-1. **Create a new GitHub repository**:
-   - Go to [GitHub](https://github.com) and click "New repository"
-   - Name it `sentiment-analysis-dashboard`
-   - Make it public
-   - Initialize with README (optional, you'll replace it)
+**Create a new GitHub repository:**
 
-2. **Upload your project files**:
-   ```bash
-   git clone https://github.com/your-username/sentiment-analysis-dashboard.git
-   cd sentiment-analysis-dashboard
-   
-   # Copy these files to your repository:
-   # - app.py
-   # - requirements.txt
-   # - README.md
-   
-   git add .
-   git commit -m "Initial commit: Sentiment Analysis Dashboard"
-   git push origin main
-   ```
+1. Go to GitHub and click "New repository"
+2. Name it `sentiment-analysis-dashboard`
+3. Make it public
+4. Initialize with README (optional, you'll replace it)
+
+**Upload your project files:**
+
+```bash
+git clone https://github.com/Jeevanm2004/sentiment-analysis-dashboard.git
+cd sentiment-analysis-dashboard
+
+# Copy these files to your repository:
+# - app.py
+# - requirements.txt
+# - README.md
+
+git add .
+git commit -m "Initial commit: Sentiment Analysis Dashboard"
+git push origin main
+```
 
 #### Step 2: Deploy on Streamlit Community Cloud
 
-1. **Access Streamlit Community Cloud**:
-   - Go to [share.streamlit.io](https://share.streamlit.io)
-   - Sign in with your GitHub account
+**Access Streamlit Community Cloud:**
 
-2. **Deploy your app**:
-   - Click "New app"
-   - Select your repository: `your-username/sentiment-analysis-dashboard`
-   - Branch: `main`
-   - Main file path: `app.py`
-   - App URL (optional): Choose a custom URL or use the auto-generated one
+1. Go to [share.streamlit.io](https://share.streamlit.io)
+2. Sign in with your GitHub account
 
-3. **Configure app settings**:
-   - Click "Advanced settings" if needed
-   - Python version: `3.11` (recommended)
-   - Click "Deploy!"
+**Deploy your app:**
 
-4. **Wait for deployment**:
-   - Initial deployment may take 5-10 minutes
-   - Models will be downloaded on first run
-   - Your app will be available at the provided URL
+1. Click "New app"
+2. Select your repository: `Jeevanm2004/sentiment-analysis-dashboard`
+3. Branch: `main`
+4. Main file path: `app.py`
+5. App URL (optional): Choose a custom URL or use the auto-generated one
+
+**Configure app settings:**
+
+1. Click "Advanced settings" if needed
+2. Python version: 3.11 (recommended)
+3. Click "Deploy!"
+
+**Wait for deployment:**
+
+- Initial deployment may take 5-10 minutes
+- Models will be downloaded on first run
+- Your app will be available at the provided URL
 
 #### Step 3: Update Your README
 
@@ -154,16 +160,19 @@ After deployment, update the live demo link in your README.md:
 ### Advanced Features
 
 #### Model Selection
-- **Twitter RoBERTa** (Recommended): Best for social media content
+
+- **Twitter RoBERTa (Recommended)**: Best for social media content
 - **Multilingual BERT**: Supports multiple languages
 - **DistilBERT SST-2**: Fast and efficient for English text
 
 #### File Upload
+
 - Upload `.txt` files for analysis
 - Supports files up to 200MB
 - Automatically processes uploaded content
 
 #### Export Results
+
 - Download analysis results as CSV
 - Includes all sentiment scores and metadata
 - Perfect for further analysis or reporting
@@ -180,7 +189,7 @@ Try these examples to test different sentiments:
 
 ## 🔍 Model Information
 
-### Default Model: cardiffnlp/twitter-roberta-base-sentiment-latest
+### Default Model: `cardiffnlp/twitter-roberta-base-sentiment-latest`
 
 - **Architecture**: RoBERTa (Robustly Optimized BERT Pretraining Approach)
 - **Training Data**: 124M tweets from January 2018 to December 2021
@@ -208,12 +217,12 @@ available_models = {
     # ... existing models
 }
 ```
-
 2. Ensure the model outputs sentiment labels compatible with the app
 
 ### Styling Customization
 
 Modify the CSS in the `st.markdown` section of `app.py` to change:
+
 - Colors and themes
 - Layout and spacing
 - Font styles and sizes
@@ -221,6 +230,7 @@ Modify the CSS in the `st.markdown` section of `app.py` to change:
 ### Adding Features
 
 The modular code structure makes it easy to add:
+
 - Batch processing for multiple texts
 - Historical analysis tracking
 - Additional visualization types
@@ -229,16 +239,19 @@ The modular code structure makes it easy to add:
 ## 📊 Performance Considerations
 
 ### Memory Usage
+
 - Models require 400MB-1GB RAM
 - Cached after first load
 - Optimized for Streamlit Community Cloud limits
 
 ### Processing Speed
-- First run: 30-60 seconds (model download)
-- Subsequent runs: 1-3 seconds per analysis
-- File uploads: Depends on file size
+
+- **First run**: 30-60 seconds (model download)
+- **Subsequent runs**: 1-3 seconds per analysis
+- **File uploads**: Depends on file size
 
 ### Resource Optimization
+
 - Models are cached using `@st.cache_resource`
 - Efficient text processing with transformers
 - Minimal memory footprint for visualizations
@@ -247,29 +260,29 @@ The modular code structure makes it easy to add:
 
 ### Common Issues
 
-**Model Loading Errors**:
+#### Model Loading Errors:
 - Ensure internet connectivity for model download
 - Try switching to a different model
 - Check if Hugging Face services are available
 
-**Slow Performance**:
+#### Slow Performance:
 - Models are cached after first use
 - Large texts may take longer to process
 - Consider using DistilBERT for faster results
 
-**Memory Issues**:
+#### Memory Issues:
 - Restart the app if memory usage is high
 - Use shorter texts for analysis
 - Clear browser cache if needed
 
 ### Error Messages
 
-**"Error loading model"**: 
+**"Error loading model":**
 - Check internet connection
 - Try a different model from the dropdown
 - Refresh the page
 
-**"Error analyzing sentiment"**:
+**"Error analyzing sentiment":**
 - Ensure text input is not empty
 - Check for special characters that might cause issues
 - Try with simpler text first
@@ -303,20 +316,21 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 🙏 Acknowledgments
 
-- **Hugging Face** for providing pre-trained transformer models
-- **Streamlit** for the amazing web app framework
-- **Cardiff NLP** for the excellent sentiment analysis models
-- **Plotly** for interactive visualizations
+- [Hugging Face](https://huggingface.co/) for providing pre-trained transformer models
+- [Streamlit](https://streamlit.io/) for the amazing web app framework
+- [Cardiff NLP](https://cardiffnlp.github.io/) for the excellent sentiment analysis models
+- [Plotly](https://plotly.com/) for interactive visualizations
 
 ## 📞 Support
 
-- **Issues**: Report bugs on [GitHub Issues](https://github.com/your-username/sentiment-analysis-dashboard/issues)
+- **Issues**: Report bugs on [GitHub Issues](https://github.com/Jeevanm2004/sentiment-analysis-dashboard/issues)
 - **Documentation**: This README and inline code comments
-- **Community**: Streamlit Community Forum
+- **Community**: [Streamlit Community Forum](https://discuss.streamlit.io/)
 
 ## 🔄 Updates & Changelog
 
 ### Version 1.0.0 (Current)
+
 - Initial release
 - Multiple model support
 - Interactive dashboard
@@ -326,4 +340,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
-**Built with ❤️ using Streamlit and Hugging Face Transformers**
+Built with ❤️ using Streamlit and Hugging Face Transformers
