@@ -15,6 +15,32 @@ A modern, AI-powered web application for analyzing text sentiment using state-of
 
 [View Live Dashboard](https://sentiment-analysis-dashboard-ju7nimeokifdsmf4m7maxf.streamlit.app)
 
+## 📸 Screenshots
+
+### Dashboard Overview
+Get instant sentiment analysis with confidence scores and interactive visualizations:
+
+#### Positive Sentiment Analysis
+![Positive Analysis](screenshots/Screenshot%202025-08-27%20at%201.35.52%20AM.png)
+*Example showing 99.04% positive sentiment detection with detailed confidence breakdown*
+
+#### Negative Sentiment Analysis
+![Negative Analysis](screenshots/Screenshot%202025-08-27%20at%201.36.18%20AM.png)
+*Example demonstrating 94.62% negative sentiment classification with visual charts*
+
+#### Neutral Sentiment Analysis
+![Neutral Analysis](screenshots/Screenshot%202025-08-27%20at%201.36.47%20AM.png)
+*Example displaying 84.04% neutral sentiment identification with score distribution*
+
+### Key Interface Elements
+
+- **Clean Input Area**: Large text box for easy content input
+- **Model Selection**: Dropdown menu in sidebar for switching between AI models
+- **Real-time Results**: Instant sentiment classification with percentage confidence
+- **Interactive Charts**: Visual representation of sentiment scores
+- **Detailed Breakdown**: Complete confidence scores for all sentiment categories
+- **Export Options**: Download results for further analysis
+
 ## 🛠️ Technology Stack
 
 - **Frontend**: Streamlit
