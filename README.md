@@ -21,15 +21,15 @@ A modern, AI-powered web application for analyzing text sentiment using state-of
 Get instant sentiment analysis with confidence scores and interactive visualizations:
 
 #### Positive Sentiment Analysis
-![Positive Analysis](screenshots/Screenshot%202025-08-27%20at%201.35.52%20AM.png)
+![Positive Analysis](screenshots/positive-analysis.png)
 *Example showing 99.04% positive sentiment detection with detailed confidence breakdown*
 
 #### Negative Sentiment Analysis
-![Negative Analysis](screenshots/Screenshot%202025-08-27%20at%201.36.18%20AM.png)
+![Negative Analysis](screenshots/negative-analysis.png)
 *Example demonstrating 94.62% negative sentiment classification with visual charts*
 
 #### Neutral Sentiment Analysis
-![Neutral Analysis](screenshots/Screenshot%202025-08-27%20at%201.36.47%20AM.png)
+![Neutral Analysis](screenshots/neutral-analysis.png)
 *Example displaying 84.04% neutral sentiment identification with score distribution*
 
 ### Key Interface Elements
