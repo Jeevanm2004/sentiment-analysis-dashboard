@@ -1,0 +1,33 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+sentiment_env/
+venv/
+env/
+
+# Streamlit cache
+.streamlit/
+
+# Hugging Face cache (big files)
+*.bin
+*.safetensors
+*cache*/
+.cache/
+transformers_cache/
+huggingface_cache/
+
+# Model files
+*.pt
+*.pth
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+*.swp
+
